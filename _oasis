@@ -14,3 +14,12 @@ Library "distorm"
   Path: .
   Modules: Distorm
   BuildDepends: ctypes, ctypes.foreign, str
+
+Executable test
+  Path: .
+  MainIs: test.ml
+  BuildDepends: distorm, oUnit
+  Install: false
+
+Test distorm_tests
+  Command: $test
