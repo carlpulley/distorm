@@ -9,4 +9,5 @@ To build:
   1. oasis setup
   2. ocaml setup.ml -configure
   3. ocaml setup.ml -build
-  4. ocaml setup.ml -install
+  4. [optional] ocaml setup.ml -test
+  5. ocaml setup.ml -install
