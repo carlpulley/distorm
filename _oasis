@@ -1,0 +1,16 @@
+OASISFormat: 0.1
+Name:        distorm
+Version:     0.0.1
+Authors:     Carl Pulley <c.j.pulley@hud.ac.uk>
+Copyrights:  (C) 2013 Carl Pulley <c.j.pulley@hud.ac.uk>
+Homepage:    https://github.com/carlpulley/distorm
+License:     GPL2
+Plugins:     META (0.0.1)
+BuildTools:  ocamlbuild
+
+Synopsis:    OCaml bindings to the Distorm3 disassembler.
+
+Library "distorm"
+  Path: .
+  Modules: Distorm
+  BuildDepends: ctypes, ctypes.foreign, str
